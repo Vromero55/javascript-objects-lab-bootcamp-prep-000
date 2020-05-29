@@ -14,5 +14,5 @@ function deleteFromObjectByKey(object, key){
   return clone;
 }
 function destructivelyDeleteFromObjectByKey(object, key){
-  
+  delete object
 }//function updateObjectWithKeyAndValue
