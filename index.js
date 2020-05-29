@@ -1,9 +1,9 @@
 function updateObjectWithKeyAndValue(object, key, value){
   //object[key]=value;
-  Object.assign({}, object, { key: [value] });
-  //object=Object.assign({}, object);
+  //Object.assign({}, object, { key: [value] });
+  new newobject=Object.assign({}, object);
 
   //object.key=[value];
-  return object;
+  return newobject;
 }
 //function updateObjectWithKeyAndValue
